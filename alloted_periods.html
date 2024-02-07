@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allot Periods</title>
+</head>
+<body>
+    <h2>Allot Periods for Teachers</h2>
+    <div>
+    <form action="allot_periods.php" method="post">
+        <label for="teacher_id">Teacher ID:</label>
+        <input type="text" name="teacher_id" autocomplete="off" required><br>
+
+        <label for="allotted_periods">Allotted Periods:</label>
+        <input type="number" name="allotted_periods" autocomplete="off" required><br>
+
+        <label for="allotted_date">Allotted Date:</label>
+        <input type="date" name="allotted_date" required><br>
+
+        <input type="submit" value="Allot Periods" style="width: 150px; margin-top:30px; margin-left:100px; background-color: aqua;">
+    </form>
+</div>
+</body>
+<style>
+    h2{
+        margin-left: 540px;
+        margin-top:50px;
+    }
+    body{
+        background-color: teal;
+    }
+    div{
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 70px 500px 200px 500px;
+        padding: 15px 30px ;
+        background-color: lightblue;
+    }
+    div:hover{
+        box-shadow: 0 0 15px silver;
+    }
+    input{
+        width: 200px;
+        height: 35px;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+    input:hover{
+        box-shadow: 0 0 35px grey;
+    }
+    select{
+        width: 50px;
+        height: 25px;
+        border-radius: 10px;
+        margin-left: 30px;
+        font-family: TimesNewRoman;
+    }
+    select:hover{
+        box-shadow: 0 0 15px silver;
+    }
+</style>
+
+</html>
