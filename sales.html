@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SALES</title>
+</head>
+<body>
+    <form action="sales.php" method="post" name="jj">
+        <label> SALES ID</label>
+        <input type="text" name="id"><br><br>
+        <label> SALES AMOUNT</label>
+        <input type="text" name="amt"><br><br>
+        <label  for="per">SALES PERSON</label>
+        <select name="person" id="per">
+            <option>Employee1</option>
+            <option>Employee2</option>
+            <option>Employee3</option>
+            <option>Others</option>
+        </select><br><br>
+        <label for="pay">PAYMENT</label>
+        <select name="payment" id="pay">
+            <option>Cash</option>
+            <option>Creditcard</option>
+            <option>Debitcard</option>
+            <option>UPI</option>
+        </select><br><br>
+        <button type="submit">OK</button>
+        <button type="reset">CLEAR</button>
+    </form>
+</body>
+</html>
